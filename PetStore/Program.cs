@@ -54,7 +54,6 @@ namespace PetStore
             bear.HangOutWithBestFriend();
 
 
-
             // object intializer
             var tiger = new Tiger
             {
