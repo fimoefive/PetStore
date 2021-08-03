@@ -39,7 +39,7 @@ namespace PetStore.Pets
         public void Eat(string typeOfFood)
         {
             //if (string.Equals(typeOfFood, "healthy food", StringComparison.OrdinalIgnoreCase))
-            if (typeOfFood.ToLower() == "Healthy Food")
+            if (typeOfFood.ToLower() == "healthy food")
             {
                 Weight -= 1;
             }

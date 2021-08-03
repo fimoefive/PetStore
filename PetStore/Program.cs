@@ -9,6 +9,7 @@ namespace PetStore
         // static means shared across all instances
         static void Main(string[] args)
         {
+            // DOG
          //   var melba = new Dog();
          //   melba.Name = "Melba";
          //   melba.Size = "Medium";
@@ -34,12 +35,23 @@ namespace PetStore
            
             var barley = new Dog("Barley", 50, "Medium");
             barley.Bark();
-                        Console.WriteLine($"What kind of food should {barley.Name} eat?");
-            var typeOfFoodForMelba = Console.ReadLine();
+
+            Console.WriteLine($"What kind of food should {barley.Name} eat?");
+            var typeOfFoodForBarley = Console.ReadLine();
             barley.Eat("table scraps");
 
+            // BEAR
+            var bear = new Bear("Yogi, "Brown");
+                bear.EatFish(5);
+            bear.EatFish(5);
+            bear.EatFish(5);
+            bear.EatFish(5);
+            bear.EatFish(-5);
 
+            // passing an object reference to a property
+            bear.BestTigerFriend = new Tiger { Name = "Bob", Size = "Miniature"};
 
+            
         }
     }
 }
