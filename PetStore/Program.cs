@@ -51,6 +51,25 @@ namespace PetStore
             // passing an object reference to a property
             bear.BestTigerFriend = new Tiger { Name = "Bob", Size = "Miniature"};
 
+            bear.HangoutWithBestFriend();
+
+
+
+            // object intializer
+            var tiger = new Tiger
+            {
+                Name = "Kisa",
+                NumberOfKills = 0,
+                Size = "Medium"
+            };
+
+            tiger.Bite("Chris");
+            tiger.Bite("Chris");
+            tiger.Bite("Chris");
+            tiger.Bite("Chris");
+            tiger.Bite("Chris");
+            tiger.Bite("Chris");
+            tiger.Bite("Chris");
             
         }
     }
