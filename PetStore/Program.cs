@@ -41,8 +41,8 @@ namespace PetStore
             barley.Eat("table scraps");
 
             // BEAR
-            var bear = new Bear("Yogi, "Brown");
-                bear.EatFish(5);
+            var bear = new Bear("Yogi", "Brown");
+            bear.EatFish(5);
             bear.EatFish(5);
             bear.EatFish(5);
             bear.EatFish(5);
@@ -51,7 +51,7 @@ namespace PetStore
             // passing an object reference to a property
             bear.BestTigerFriend = new Tiger { Name = "Bob", Size = "Miniature"};
 
-            bear.HangoutWithBestFriend();
+            bear.HangOutWithBestFriend();
 
 
 

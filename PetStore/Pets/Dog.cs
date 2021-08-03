@@ -18,7 +18,7 @@ namespace PetStore.Pets
         // Access Modifier  Type    Name
         public string Size { get; set;} // auto-property
         public short Weight { get; private set;}
-        public string Name { get set};
+        public string Name { get; set; }
 
         // Constuctor, Constuctor Method
         public Dog(string name, short weight, string size)
