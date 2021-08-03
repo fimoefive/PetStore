@@ -41,6 +41,20 @@ namespace PetStore.Pets
         //}
 
         public Bear(string name, string type, string educationLevel, int howManyFish) : this(name, type, educationLevel)
+        {
+            NumberOfFishEaten = howManyFish;
+        }
+
+        public void EatFish(int howMany)
+        {
+            if (howMany <= 0) return;
+
+            NumberOfFishEaten += howMany;
+        }
+
+
+
+
 
 
     }
