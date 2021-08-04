@@ -52,10 +52,14 @@ namespace PetStore.Pets
             NumberOfFishEaten += howMany;
         }
 
+        public void HangOutWithBestFriend()
+        {
+            var output = $"{Name} the bear is hanging out with " +
+                $"its best tiger friend, {BestTigerFriend.Name} " +
+                $"the {BestTigerFriend.Size} sized tiger";
 
-
-
-
+            Console.WriteLine(output);
+        }
 
     }
-}
+}  
