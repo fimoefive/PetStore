@@ -26,7 +26,7 @@ namespace PetStore.Pets
                 Console.WriteLine("This is a bitey Tiger");
             }
 
-            Console.WriteLine($"{Name} the tiger just bit {handlerName}.");
+            Console.WriteLine($"{Name} the tiger just bit {handlerName} {_numberOfBites} times.");
         }
 
     }
