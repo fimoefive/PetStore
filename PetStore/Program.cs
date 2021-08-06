@@ -53,14 +53,18 @@ namespace PetStore
 
             bear.HangOutWithBestFriend();
 
+            var tiger = new Tiger();
+            tiger.Name = "Kisa";
+            tiger.NumberOfKills = 0;
+            tiger.Size = "Medium";
 
-            // object intializer
-            var tiger = new Tiger
-            {
-                Name = "Kisa",
-                NumberOfKills = 0,
-                Size = "Medium"
-            };
+            // object intializer (this is not a Constructor)
+            //var tiger = new Tiger
+            //{
+            //    Name = "Kisa",
+            //    NumberOfKills = 0,
+            //    Size = "Medium"
+            //};
 
             tiger.Bite("Chris");
             tiger.Bite("Chris");
